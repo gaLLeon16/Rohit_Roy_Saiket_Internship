@@ -1,0 +1,39 @@
+Task 3: Customer Segmentation
+
+Objective:
+Segment telecom customers based on tenure, monthly charges, and contract type to analyze churn behavior and identify high-value customers at risk.
+
+Segmentation Performed:
+1.Tenure-Based Segments:
+    Created 4 tenure groups:
+    0–12, 13–24, 25–48, 49–72 months
+  Observation:
+   Churn is highest in the first 12 months and decreases with longer tenure.
+  [Saved as: segmentation_1_tenure.png]
+
+2.Monthly Charges Segments:
+    Grouped into: Low, Medium, High, Very High
+  Observation:
+    Customers with higher charges showed higher churn risk.
+   [Saved as: segmentation_2_monthly_charges.png]
+
+3.Contract Type Analysis:
+    Compared Month-to-month, One year, and Two year
+  Observation:
+    Churn was highest for Month-to-month contracts.
+    Long-term contracts show better retention.
+  [Saved as: segmentation_3_contract.png]
+
+High-Value, High-Risk Customers Identified:
+  Criteria:
+    High monthly charges (High or Very High)
+    Short tenure (0–12 or 13–24 months)
+    Churned customers
+   Result:
+    These customers were filtered and saved for targeted retention strategies.
+    [Saved as: high_risk_customers.csv]
+
+Conclusion:
+This segmentation provides strong business insights:
+   Retention strategies should focus on early-stage, high-paying users
+   Offering longer-term contracts and early loyalty benefits may reduce churn

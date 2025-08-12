@@ -1,0 +1,45 @@
+C:\Users\rohit\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py:470: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+ Logistic Regression Results:
+              precision    recall  f1-score   support
+
+           0       0.84      0.89      0.86      1033
+           1       0.62      0.52      0.56       374
+
+    accuracy                           0.79      1407
+   macro avg       0.73      0.70      0.71      1407
+weighted avg       0.78      0.79      0.78      1407
+
+
+ Decision Tree Results:
+              precision    recall  f1-score   support
+
+           0       0.81      0.79      0.80      1033
+           1       0.46      0.49      0.47       374
+
+    accuracy                           0.71      1407
+   macro avg       0.63      0.64      0.64      1407
+weighted avg       0.72      0.71      0.71      1407
+
+
+ Random Forest Results:
+              precision    recall  f1-score   support
+
+           0       0.83      0.90      0.86      1033
+           1       0.64      0.48      0.54       374
+
+    accuracy                           0.79      1407
+   macro avg       0.73      0.69      0.70      1407
+weighted avg       0.78      0.79      0.78      1407
+
+
+ All models trained and evaluated. Results saved as 'task4_model_results.csv'
+PS C:\Users\rohit\OneDrive\Documents\Internship\Saiket\Rohit_Roy_Saiket_Internship> 

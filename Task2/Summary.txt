@@ -1,0 +1,45 @@
+Task 2: Exploratory Data Analysis (EDA)
+
+Objective:
+Understand customer churn patterns by analyzing and visualizing key features like demographics, contract types, tenure, and payment methods.
+
+Key Insights & Visualizations:
+
+1.Overall Churn Rate
+   26.6% of customers have churned.
+   Majority (73.4%) are retained.
+   [Saved as: output_1_churn_rate.png]
+
+2.Churn by Gender
+   No significant difference in churn between male and female customers.
+   [Saved as: output_2_churn_by_gender.png]
+
+3.Churn by Partner Status
+   Customers without partners are more likely to churn.
+   [Saved as: output_3_churn_by_partner.png]
+
+4.Churn by Dependents
+   Customers without dependents tend to churn more.
+   [Saved as: output_4_churn_by_dependents.png]
+
+5.Churn by Contract Type
+   Month-to-month contracts have the highest churn.
+   Customers on 1 or 2-year contracts are more stable.
+   [Saved as: output_5_churn_by_contract.png]
+
+6.Churn by Payment Method
+   Higher churn among customers using Electronic Check.
+   Lower churn with Credit Card or Bank Transfer.
+   [Saved as: output_6_churn_by_payment_method.png]
+
+7.Tenure vs Churn
+   Short-tenure customers are more likely to churn.
+   Longer-tenured customers show better retention.
+   [Saved as: output_7_tenure_vs_churn.png]
+
+Conclusion:
+This EDA reveals strong churn indicators:
+  Short contract terms
+  Low tenure
+  No partner or dependents
+  Electronic check payments

@@ -1,0 +1,20 @@
+Task 4: Churn Prediction Model
+Objective:
+Build and evaluate machine learning models to predict customer churn using the prepared Telco dataset.
+
+Models Used:
+ Logistic Regression
+ Decision Tree
+ Random Forest
+
+Logistic Regression and Random Forest both performed similarly and better than Decision Tree, but churn class recall is still low, indicating the model misses some actual churn cases.
+
+Warning Observed:
+Logistic Regression gave a ConvergenceWarning.
+Reason: The model hit its max iterations (1000) before finding a perfect solution.
+
+Conclusion:
+You built three solid models and identified that:
+ Logistic Regression is a strong baseline
+ Random Forest offers competitive performance
+ Model recall needs improvement if you want to reduce customer loss

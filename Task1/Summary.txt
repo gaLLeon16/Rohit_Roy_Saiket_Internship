@@ -1,0 +1,26 @@
+Task 1: Data Preparation
+
+Objective:
+Prepare the Telco Customer Churn dataset for analysis and modeling by cleaning, transforming, and splitting the data
+
+Steps Performed:
+1.Loaded the dataset
+    Rows: 7043 | Columns: 21
+    No missing values detected in raw data.
+2.Data type correction
+    Converted TotalCharges from string to numeric.
+    Dropped rows where conversion resulted in NaN.
+3.Dropped non-informative column
+    Removed customerID as it doesn't contribute to churn prediction.
+4.Encoded categorical variables
+    Binary columns like Partner, Dependents, etc., were mapped to 1/0.
+    Remaining categorical features were one-hot encoded using pd.get_dummies().
+5.Split dataset
+    80% training set: 5625 records
+    20% testing set: 1407 records
+    Final features: 30 numerical columns
+
+Outcome:
+Dataset is now fully numeric and ready for analysis and machine learning.
+No missing values or unnecessary columns.
+Balanced preparation for EDA and modeling tasks ahead.

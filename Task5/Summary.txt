@@ -1,0 +1,23 @@
+Task 5: Model Evaluation & Interpretation
+Objective:
+Evaluate the best churn prediction model, interpret feature importance, and visualize model performance using the ROC curve and AUC.
+
+Model Evaluated: Random Forest Classifier
+
+Accuracy: 79%
+Precision (Churn class): 63%
+Recall (Churn class): 46%
+F1-Score (Churn class): 53%
+AUC Score: 0.82 ✅
+
+Key Outputs:
+1.Classification Report:
+    Churn class has slightly lower recall, indicating the model misses some churners
+    But overall performance is stable and acceptable for business use
+2.Top 10 Features Influencing Churn:
+    Visualized in task5_feature_importance.png
+    Likely top features: Contract_Two year, tenure, MonthlyCharges, InternetService_Fiber optic
+3.ROC Curve:
+    Saved as task5_roc_curve.png
+    Shows model’s balance between true and false positives
+    AUC of 0.82 indicates good predictive capability

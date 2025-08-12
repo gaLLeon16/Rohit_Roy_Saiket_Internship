@@ -1,0 +1,52 @@
+PS C:\Users\rohit\OneDrive\Documents\Internship\Saiket\Rohit_Roy_Saiket_Internship> python -u "c:\Users\rohit\OneDrive\Documents\Internship\Saiket\Rohit_Roy_Saiket_Internship\Task5\task5.py"
+ Random Forest Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.90      0.86      1033
+           1       0.63      0.46      0.53       374
+
+    accuracy                           0.79      1407
+   macro avg       0.73      0.68      0.70      1407
+weighted avg       0.77      0.79      0.77      1407
+
+weighted avg       0.77      0.79      0.77      1407
+
+weighted avg       0.77      0.79      0.77      1407
+
+weighted avg       0.77      0.79      0.77      1407
+
+c:\Users\rohit\OneDrive\Documents\Internship\Saiket\Rohit_Roy_Saiket_Internship\Task5\task5.py:43: FutureWarning:
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.    
+
+  sns.barplot(x=top_features, y=top_features.index, palette='Blues_r')
+ Task 5 complete. AUC Score: 0.82
+Feature importance and ROC curve images saved.
+
+c:\Users\rohit\OneDrive\Documents\Internship\Saiket\Rohit_Roy_Saiket_Internship\Task5\task5.py:43: FutureWarning:
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.    
+
+  sns.barplot(x=top_features, y=top_features.index, palette='Blues_r')
+ Task 5 complete. AUC Score: 0.82
+Feature importance and ROC curve images saved.
+
+c:\Users\rohit\OneDrive\Documents\Internship\Saiket\Rohit_Roy_Saiket_Internship\Task5\task5.py:43: FutureWarning:
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.    
+
+
+c:\Users\rohit\OneDrive\Documents\Internship\Saiket\Rohit_Roy_Saiket_Internship\Task5\task5.py:43: FutureWarning:
+
+
+
+c:\Users\rohit\OneDrive\Documents\Internship\Saiket\Rohit_Roy_Saiket_Internship\Task5\task5.py:43: FutureWarning:
+
+
+c:\Users\rohit\OneDrive\Documents\Internship\Saiket\Rohit_Roy_Saiket_Internship\Task5\task5.py:43: FutureWarning:
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.    
+
+  sns.barplot(x=top_features, y=top_features.index, palette='Blues_r')
+ Task 5 complete. AUC Score: 0.82
+Feature importance and ROC curve images saved.
